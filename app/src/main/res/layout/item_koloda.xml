@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="85dp"
+    android:layout_gravity="center">
+
+    <!-- CardView as the main card container -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@android:color/white">
+
+        <!-- Content of the card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_button">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:padding="8dp"
+                android:gravity="fill_horizontal">
+                <LinearLayout
+                    android:id="@+id/rightSwipeOverlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/right_overlay"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_chat"
+                        android:contentDescription="Join chamber"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/join_the_chamber"
+                        android:gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textColor="#00aa82"
+                        android:minHeight="26dp"
+                        android:minWidth="26dp"/>
+                </LinearLayout>
+                <!-- Overlay for the swipe left action -->
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:id="@+id/leftSwipeOverlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/left_overlay"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_skip"
+                        android:contentDescription="Skip chamber"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/skip_the_chamber"
+                        android:gravity="center_vertical|end"
+                        android:textSize="14sp"
+                        android:textColor="#ff6066"
+                        android:minHeight="26dp"
+                        android:minWidth="26dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- TextView for the title -->
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/title" />
+
+            <TextView
+                android:id="@+id/num_chatter"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:drawableLeft="@drawable/chat"
+                android:drawablePadding="8dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

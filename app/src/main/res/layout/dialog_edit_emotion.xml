@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editing"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update the field below"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/emotionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"/>
+
+        <TextView
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save"
+            android:textSize="20dp"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+</LinearLayout>

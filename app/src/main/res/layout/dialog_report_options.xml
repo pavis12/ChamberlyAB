@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/Dialog"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/textReportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reporting DisplayName"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the reason for this report"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:id="@+id/reportReasonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="@color/black"
+        android:showDividers="beginning"/>
+
+</LinearLayout>

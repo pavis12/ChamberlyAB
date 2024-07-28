@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/emoji_very_sad"
+        android:title="Very Sad"
+        android:icon="@drawable/very_sad"/>
+    <item
+        android:id="@+id/emoji_sad"
+        android:title="Sad"
+        android:icon="@drawable/sad"/>
+    <item
+        android:id="@+id/emoji_neutral"
+        android:title="Neutral"
+        android:icon="@drawable/neutral"/>
+    <item
+        android:id="@+id/emoji_happy"
+        android:title="Happy"
+        android:icon="@drawable/happy"/>
+    <item
+        android:id="@+id/emoji_very_happy"
+        android:title="Very Happy"
+        android:icon="@drawable/very_happy"/>
+</menu>

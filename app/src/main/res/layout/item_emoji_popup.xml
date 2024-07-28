@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/popup_background"
+    android:padding="4dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/emojiVerySad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/very_sad"
+         />
+
+    <ImageView
+        android:id="@+id/emojiSad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/sad"
+         />
+
+    <ImageView
+        android:id="@+id/emojiNeutral"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/neutral"
+         />
+
+    <ImageView
+        android:id="@+id/emojiHappy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/happy"
+         />
+
+    <ImageView
+        android:id="@+id/emojiVeryHappy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/very_happy"
+         />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="DottedCircularProgressBar">
+        <attr name="dotCount" format="integer" />
+        <attr name="dotRadius" format="dimension" />
+        <attr name="dotSpacing" format="dimension" />
+    </declare-styleable>
+</resources>

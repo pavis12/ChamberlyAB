@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Define the dots as path elements -->
+    <group android:translateX="50" android:translateY="50">
+        <path
+            android:name="dot1"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="0"/>
+        <path
+            android:name="dot2"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="30"/>
+        <path
+            android:name="dot3"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="60"/>
+        <path
+            android:name="dot4"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="90"/>
+        <path
+            android:name="dot5"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="120"/>
+        <path
+            android:name="dot6"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="150"/>
+        <path
+            android:name="dot7"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="180"/>
+        <path
+            android:name="dot8"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="210"/>
+        <path
+            android:name="dot9"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="240"/>
+        <path
+            android:name="dot10"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="270"/>
+        <path
+            android:name="dot11"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="300"/>
+        <path
+            android:name="dot12"
+            android:fillColor="#000000"
+            android:pathData="M0,-40a5,5 0 1,1 0,-0.1"
+            android:rotation="330"/>
+    </group>
+</vector>

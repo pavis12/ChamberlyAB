@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.ExpressFeelings"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/heading"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type in your journal"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/feelings_input"
+        android:layout_width="361dp"
+        android:layout_height="177dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="100dp"
+        android:clipToOutline="true"
+        android:background="@drawable/input"
+        android:hint="What did you do today? How did you feel?"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:textSize="16sp"
+        android:textColorHint="#808080"
+        android:padding="16dp"
+    />
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feelings_input"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:clipToOutline="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+
+
+        android:text="Add"  />
+
+
+    <com.company.chamberly.activities.DottedCircularProgressBar
+        android:id="@+id/dotted_progress_bar"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:dotCount="10"
+        app:dotRadius="5dp"
+        android:visibility="gone"
+        android:layout_marginTop="300dp"
+        app:dotSpacing="30dp"/>
+
+
+
+
+
+
+</RelativeLayout>

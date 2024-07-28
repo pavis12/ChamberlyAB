@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:flexbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="18dp"
+        card_view:cardElevation="4dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/card_border">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/emojiView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/emotionEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/emojiView"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/editIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_edit" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/emojiView"
+                android:padding="5dp"
+                android:layout_marginBottom="8dp" />
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/emojiView"
+                android:layout_above="@id/dateTextView"
+                android:layout_marginTop="18dp">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/summaryContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    flexbox:flexWrap="wrap">
+                    <!-- Summary text views will be added dynamically -->
+                </com.google.android.flexbox.FlexboxLayout>
+            </ScrollView>
+
+            <!-- New TextView for Date -->
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="2dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

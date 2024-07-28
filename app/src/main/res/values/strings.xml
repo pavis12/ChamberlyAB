@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Chamberly</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="welcome">Choose a Display Name!</string>
+    <string name="display_name">Display Name...</string>
+    <string name="continue_button">Continue</string>
+    <string name="register">Register</string>
+    <string name="follow_us_on_social_media"> Follow us on social media :)</string>
+    <string name="title_activity_create">CreateActivity</string>
+    <string name="title_activity_create_chamber">CreateChamberActivity</string>
+    <string name="title_activity_create_topic">CreateTopicActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search_topic">SearchTopicActivity</string>
+    <string name="swipe_right_to_start_chatting">Swipe right to start chatting</string>
+    <string name="message">Message</string>
+    <string name="john_grady_cole">John Grady Cole</string>
+    <string name="user_icon">User Icon</string>
+    <string name="chamberly">CHAMBERLY</string>
+    <string name="search">Search</string>
+    <string name="create_a_chamber">Create a Chamber</string>
+    <string name="create_a_topic">Create a Topic</string>
+    <string name="todo">TODO</string>
+    <string name="grouptitle">groupTitle</string>
+    <string name="send">Send</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="start_a_chat">Start a Chat</string>
+    <string name="start_a_topic">Start a Topic</string>
+    <string name="create_chamber">Create Chamber</string>
+    <string name="enter_chamber_title">Enter Chamber Title...</string>
+    <string name="dislike">disliked</string>
+    <string name="this_is_a_message">This is a Message</string>
+    <string name="chat_icon">Chat Icon</string>
+    <string name="title">Title</string>
+    <string name="_1_2">1/2</string>
+
+    <string name="preference_file_key">com.company.chamberly_preferences</string>
+    <string name="notif_permission_requested_key">notification_permission_requested</string>
+    <string name="info" />
+    <string name="follow_us_on_instagram">Follow us on Instagram!</string>
+    <string name="_125">125</string>
+    <string name="find_a_chamber">Find a Chamber</string>
+    <string name="find_a_topic">Find a Topic</string>
+    <string name="create_a_display_name">Create a Display Name</string>
+    <string name="username">Username</string>
+    <string name="create_account">Create Account</string>
+    <string name="feel_free_we_do_not_ask_your_real_name_but_it_must_comply_with_the_terms_conditions"><![CDATA[Feel free, we do not ask your real name, but it must comply with the Terms & Conditions]]></string>
+    <string name="swipe_right_to_start_chatting1">Swipe right to start chatting!</string>
+    <string name="my_chambers">My Chambers</string>
+    <string name="skip_the_chamber">Skip the Chamber</string>
+    <string name="join_the_chamber">Join the Chamber</string>
+    <string name="joinchamber"><![CDATA[Join the Chamber   ]]></string>
+    <string name="you_do_not_have_any_chambers_yet">You do not have any Chambers yet</string>
+    <string name="delete_chamber">delete chamber</string>
+    <string name="topic_join_request_heading">Someone wants to chat!</string>
+    <string name="deny">Deny</string>
+    <string name="accept">Accept</string>
+    <string name="title_activity_topic_join_request">Topic Join Request</string>
+    <string name="topic_join_request_message">%1$s wants to chat with you about %2$s</string>
+    <string name="update_available_heading">App Update available</string>
+    <string name="update_available_message">A newer app version is available. Please update the app to continue using.</string>
+    <string name="update_app">Update</string>
+    <string name="leave_chamber_heading">Leave Chamber</string>
+    <string name="leave_chamber_message">Tell the user why you\'re leaving</string>
+    <string name="done_venting">Done venting</string>
+    <string name="wrong_match">Wrong match</string>
+    <string name="in_a_hurry">In a hurry</string>
+    <string name="just_checking">Just checking the app out</string>
+    <string name="no_activity">No activity</string>
+    <string name="cancel">Cancel</string>
+    <string name="reporting_message">Reporting %1$s</string>
+    <string name="topic_join_title">New match found</string>
+    <string name="topic_request_message">Reserved by: %1$s</string>
+    <string name="no_chambers_found">There are no chambers available now. Create a chamber or wait for someone to get started.</string>
+    <string name="no_topics_found">There are no topics available right now. Create a topic now or wait for others to get started.</string>
+    <string name="too_many_topics_title">You\'re pending a match on too many topics</string>
+    <string name="too_many_topics_body">Remove them to continue</string>
+    <string name="feedback_success_string">Your feedback has been submitted.</string>
+    <string name="title_activity_update">Update App Activity</string>
+    <string name="block_user_dialog_title">Block %1$s and leave chamber?</string>
+    <string name="confirm_role_change">WARNING: Once you change roles, you will stop looking for matches on saved topics. You can look for matches again by searching for them. Click confirm to proceed.</string>
+    <string name="listener_details">Take the role of a Listener</string>
+    <string name="ventor_details">Take the role of a Ventor</string>
+    <string name="report_user_title_text">Reporting %1$s</string>
+
+    <!-- TODO: FACEBOOK EVENT LOGGER STRINGS, ADD CORRECT STRINGS WHEN AVAILABLE-->
+    <string name="facebook_app_id">1425594254829689</string>
+    <string name="facebook_client_token">0b34138aea49ce7702b8cb662075e391</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="active_chambers">Active Chambers</string>
+    <string name="home">Home</string>
+    <string name="procrastination_cancel_success_message">You can now swipe right on new topics</string>
+    <string name="procrastion_cancel_success_title">Done!</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+</resources>
